@@ -1,0 +1,114 @@
+header {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    height: 800px;
+    background-image: url("img/T4B3868.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.navigation-bar {
+    overflow: scroll;
+    background-color: #333;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.navigation-items {
+    padding-right: 30px;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation-items a {
+    padding-left: 10px;
+    color: white;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.title-1 {
+    margin: 10px;
+    font-family: serif;
+    color: Black;
+    font-size: 60px;
+}
+
+.title-2 {
+    color: Black;
+    font-size: 20px;
+    font-family: serif;
+    font-style: italic;
+}
+
+#about-title {
+    margin: 5px;
+    color: Black;
+    font-size: 40px;
+    font-style: oblique;
+    padding-top: 30px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+
+.skills-interest-container h3 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.skills-interest-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.skills {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+#skills-list {
+    padding: 20px 70px 30px 70px;
+}
+
+.interests {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#interests-list {
+    padding: 20px 70px 30px 70px;
+}
